@@ -6,7 +6,6 @@ jobs:
 
     steps:
       - name: Step 1
-        continue-on-error: true
         run: |
           echo "This is Step 1"
           exit 1
